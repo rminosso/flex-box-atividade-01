@@ -20,13 +20,11 @@ h1 {
     background-color: antiquewhite;
     border: solid 2px #212427;
 
-    position: relative;
-    
 
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
 }
 
 .filho {
@@ -34,30 +32,27 @@ h1 {
     height: 80px;
     border-radius: 50px;
     text-align: center;
-    line-height:80px;
-    position: absolute;
-
+   
 }
 
 .cor1 {
     background-color: #ED145B;
     order: 1;
-    top: 10px;
-    left: 10px;
+    
 }
 
 .cor2 {
     background-color: #63B1BC;
+    align-self: flex-end;
     order: 3;
-    bottom: 10px;
-    right: 10px;
+   
 }
 
 .cor3 {
     background-color: #EFB661;
+    align-self: center;
     order: 2;
-    top: 40%;
-    left: 40%;
+
 }
 
 .instrucoes {
